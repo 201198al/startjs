@@ -1,6 +1,22 @@
-#trafficLight {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: black;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f2f2f2;
+}
+
+.traffic-light {
+    background: #333;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.light {
+    width: 80px;
+    height: 80px;
+    background: black;
+    border-radius: 50%;
+    margin: 10px 0;
+    cursor: pointer;
 }
